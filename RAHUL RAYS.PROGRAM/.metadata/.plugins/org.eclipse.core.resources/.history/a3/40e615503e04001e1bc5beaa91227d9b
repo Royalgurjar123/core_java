@@ -1,0 +1,40 @@
+package Exceptionhandling;
+
+public class TryCatchFinally {
+	public static void main(String[] args) {
+		try {
+			int[]arr = {1,3,2};
+			
+			System.out.println(arr[2]);
+			
+			int c =10/2;
+			
+			System.out.println(c);
+			
+			String name =  "rahul";
+			
+			System.out.println(name.charAt(4));
+			
+		} catch (NullPointerException e) {
+			
+			System.out.println(e);
+			
+		} catch (StringIndexOutOfBoundsException e) {
+			
+			System.out.println(e);
+			
+		}catch (ArithmeticException e) {
+			
+			System.out.println(e);
+			
+		} catch (Exception e) {
+			
+			System.out.println(e);
+		} finally {
+			System.out.println("finally in block");
+			
+		}
+			
+		}	
+		
+		}	

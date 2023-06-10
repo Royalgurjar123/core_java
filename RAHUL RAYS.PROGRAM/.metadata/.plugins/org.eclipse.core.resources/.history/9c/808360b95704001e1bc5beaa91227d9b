@@ -1,0 +1,34 @@
+package Exceptionhandling;
+
+public class TestPropagation {
+
+	public static void main(String[] args) {
+		
+		try {
+			dad();
+		} catch (InSufficientFund e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+	public static void dad() throws InSufficientFund {
+		
+		mom();
+
+	}
+
+	public static void mom() throws InSufficientFund {
+		
+		son();
+
+	}
+
+	public static void son() throws InSufficientFund {
+		
+		throw new InSufficientFund();
+
+	}
+
+}

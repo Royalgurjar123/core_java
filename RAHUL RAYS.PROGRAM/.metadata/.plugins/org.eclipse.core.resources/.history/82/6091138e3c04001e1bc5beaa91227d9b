@@ -1,0 +1,19 @@
+package Exceptionhandling;
+
+public class MultipleExpection {
+	public static void main(String[] args) {
+		try {
+			int[]arr = {1,3,2};
+			System.out.println(arr[3]);
+			int c =10/0;
+			String name =  "rahul";
+			System.out.println(name.charAt(7));
+			
+		} catch (Exception e) {
+			System.out.println(e);
+
+			
+		}
+	}
+
+}

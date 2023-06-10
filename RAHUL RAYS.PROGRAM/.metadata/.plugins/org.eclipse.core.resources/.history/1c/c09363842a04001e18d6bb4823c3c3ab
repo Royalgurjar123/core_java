@@ -1,0 +1,24 @@
+package Practicing;
+
+public class Customer  implements Cloneable{
+	private String name  =null ;
+	public Account number =null ;
+	
+	public Customer( String n ){
+		name =n;
+	 Account account = new Account (5);
+	  
+	}
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+	Customer c =(Customer)super.clone();
+	c.account = (Account)account.clone();
+		return c;
+	}
+		
+		
+
+		
+	}
+
+}

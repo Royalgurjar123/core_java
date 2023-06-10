@@ -1,0 +1,23 @@
+package rays.com.contructcalling;
+
+public class Person {
+	private int  id ;
+	private String name ;
+	private String adress ;
+	
+	public  Person  (){
+		System.out.println(" zero para const");
+	}
+	public Person (int id) {
+		this ();
+		System.out.println("one para const");
+	}
+    public Person ( int id , String name ) {
+    	this (id);
+    	System.out.println(" two para const");
+    }
+    public Person ( int id ,String name , String adress) {
+    	this(id,name);
+    	System.out.println( "three para conts ");
+    }
+}

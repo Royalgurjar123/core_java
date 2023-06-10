@@ -1,0 +1,9 @@
+package rays.collectionframework;
+
+public class TestPerson {
+	public static void main(String[] args) {
+		Person p = new Person(3,"rahul","indore" );
+		System.out.println(P);
+	}
+
+}

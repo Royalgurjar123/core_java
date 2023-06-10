@@ -1,0 +1,20 @@
+package Practicing;
+
+
+
+public class TestEmployee1 { 
+	public static void main(String[] args) {
+		
+		Employee1 e1 = new Employee1(1 ,"two" ,"indore");
+		Employee1 e2 = new Employee1(2 ,"one" ,"indore");
+		Employee1 e3 = new Employee1(3 ,"three" ,"indore");
+		Employee1 e4 = new Employee1(4 ,"four" ,"indore");
+		Employee1 e5 = new Employee1(5 ,"five" ,"indore");
+		
+		System.out.println(e1.equals(e1));
+
+		
+		
+	}
+
+}

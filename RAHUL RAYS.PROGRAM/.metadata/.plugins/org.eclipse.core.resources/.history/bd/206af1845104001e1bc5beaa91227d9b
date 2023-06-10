@@ -1,0 +1,19 @@
+package Exceptionhandling;
+
+public class TestAccount {
+	public static void main(String[] args) throws InSufficientFund {
+		Account a = new Account();
+		a.setBalance(4000);
+		a.setAccountType("saving");
+		a.setNumber(" 3456789000");
+	
+		
+		a.deposit(5000);
+		a.withdraw(30000);
+		a.fundtransfer(2000);
+		
+		
+	}
+
+
+}

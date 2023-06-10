@@ -1,0 +1,23 @@
+package rays.com.contructcalling;
+
+public class Employee extends Person{
+	private String department;
+	public Employee() {
+		
+	}
+
+	public Employee(int id, String name, String adress, String department) {
+		super(id, name, adress);
+		this.department=department;
+		
+	}
+
+	public String getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(String department) {
+		this.department = department;
+	}
+	
+}

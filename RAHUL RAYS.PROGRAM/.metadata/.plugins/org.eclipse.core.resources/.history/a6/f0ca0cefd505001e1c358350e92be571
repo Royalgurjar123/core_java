@@ -1,0 +1,33 @@
+package rays.collectionframework;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+
+public class TestIteraator {
+	public static void main(String[] args) {
+		
+		Person p1 = new Person(1,"rahul","indore");
+		Person p2 = new Person(2,"arun","indore");
+		Person p3 = new Person(3,"rajat","indore");
+		Person p4 = new Person(4,"monil","indore");
+		
+     	List l = new ArrayList();
+     	l.add(p1);
+     	l.add(p2);
+     	l.add(p3);
+     	l.add(p4);
+     	
+     	Iterator it =l.iterator();
+     	
+     	while (it.hasNext()) {
+			Person p = (Person) it.next();
+			System.out.print(p.getId());
+			System.out.print(p.getAddress());
+			System.out.print(p.getName());
+			
+		}
+
+}
+}

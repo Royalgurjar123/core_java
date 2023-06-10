@@ -1,0 +1,11 @@
+package Exceptionhandling;
+
+public class InSufficientFund extends Exception {
+	
+	public InSufficientFund() {
+		
+		super("InSufficientFund");
+
+	}
+
+}

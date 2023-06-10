@@ -1,0 +1,13 @@
+package rays.com;
+
+public class arun {
+	public static void main(String[] args) {
+		
+	
+String s1 = "arun";
+String s2 = "monil";
+    s1.concat("rajat");
+    System.out.println(s1);
+
+	}
+}

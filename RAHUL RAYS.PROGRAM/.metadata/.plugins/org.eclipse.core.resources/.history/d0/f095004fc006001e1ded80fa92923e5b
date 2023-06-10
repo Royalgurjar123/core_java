@@ -1,0 +1,37 @@
+package rays.collectionframework;
+
+import java.util.HashMap;
+
+public class TestMap {
+	public static void main(String[] args) {
+	 HashMap Map = new HashMap();	
+	 Map.put  ("1","rahul");
+	 Map.put("2","rohit");
+	 Map.put("3","rajat");
+	 
+	 System.out.println(Map );
+	// Map.clear();
+	// System.out.println(Map);
+	 
+//	 System.out.println(Map.containsKey("2"));
+	 
+//	 System.out.println(Map.containsValue("rahul"));
+	 
+//	 System.out.println(Map.entrySet());
+	 
+//	 System.out.println(Map.get("1"));
+	 
+//	 System.out.println(Map.isEmpty());
+	 
+//	 System.out.println(Map.keySet());
+	 
+	// Map.put("2", "rahul");
+	// System.out.println(Map);
+	// Map.remove("1");
+	// System.out.println(Map);
+	
+	// System.out.println(Map.size());
+	 System.out.println(Map.values());
+	}
+
+}

@@ -1,0 +1,20 @@
+package coloning;
+//DEEP COL0NING
+
+public class Customer implements Cloneable {
+private  String name  = null ;
+public Account account = null ;
+
+public Customer(  String name ) {
+       name = name ;
+	account =new Account (10);
+	
+}
+@Override
+	protected Object clone() throws CloneNotSupportedException {
+	Customer c = (Customer)super.clone();
+	c.account = (Account)account.clone();
+		return c;
+	}
+
+}

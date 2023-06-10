@@ -1,0 +1,6 @@
+package rays.com.contructcalling;
+
+public class Employee extends Person {
+	private String department ;
+	
+	

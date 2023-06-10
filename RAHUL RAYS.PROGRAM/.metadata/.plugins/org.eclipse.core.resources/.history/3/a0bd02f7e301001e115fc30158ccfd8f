@@ -1,0 +1,13 @@
+package rays.com.contructcalling;
+
+public class Employee extends Person {
+	private String department ;
+	
+	public Employee() {
+		System.out.println("zero para const");
+	}
+      public Employee( int id ,String name ,String adress,String department) {
+    	  super(id,name,adress);
+    	  System.out.println("four para const");
+      }
+}

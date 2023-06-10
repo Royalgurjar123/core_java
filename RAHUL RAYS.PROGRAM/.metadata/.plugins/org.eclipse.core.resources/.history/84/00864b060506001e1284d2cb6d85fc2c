@@ -1,0 +1,17 @@
+package rays.collectionframework;
+
+import java.util.HashMap;
+
+public class TestMap {
+	public static void main(String[] args) {
+	 HashMap Map = new HashMap();	
+	 Map.put  ("1","rahul");
+	 Map.put("2","rohit");
+	 Map.put("3","rajat");
+	 
+	 
+		
+		
+	}
+
+}

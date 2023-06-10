@@ -1,0 +1,18 @@
+package Practicing;
+
+public class Customer  implements Cloneable{
+	private String name  =null ;
+	public Account number =null ;
+	
+	public Customer( String n ){
+		name =n;
+	 Account account = new Account (5);
+	  
+	object
+		
+		
+
+		
+	}
+
+}

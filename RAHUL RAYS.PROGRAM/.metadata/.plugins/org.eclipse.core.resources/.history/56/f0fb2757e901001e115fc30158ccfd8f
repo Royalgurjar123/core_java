@@ -1,0 +1,8 @@
+package rays.com.contructcalling;
+
+public class TestPerson {
+	public static void main(String[] args) {
+	Employee e = new Employee (10,"rahul", "Indore", "IT");
+	}
+
+}

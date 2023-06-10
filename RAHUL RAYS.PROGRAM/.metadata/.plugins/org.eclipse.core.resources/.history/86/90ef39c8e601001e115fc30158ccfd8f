@@ -1,0 +1,10 @@
+package coloning;
+
+public class TestColoning {
+	public static void main(String[] args) {
+		Account a1 = new Account(100);
+		Account a2 =a1;
+		System.out.println(a2.getBalance());
+	}
+
+}
